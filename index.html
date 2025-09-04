@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <nav id="desktop-nav" style="background-color: #eee;">
+        <div class="logo">
+            <span>M</span>AH<span>A</span>RA<span>T</span>    
+        </div>
+            <ul class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </nav>
+    <nav id="hum-nav" style="background-color: #eee;">
+        <div class="hum-logo"><span>M</span>AH<span>A</span>RA<span>T</span></div>
+        <div class="hum-menu">
+            <div class="hum-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="hum-menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#project" onclick="togglemenu()">Project</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="pic_container">
+            <img src="./assets/prof.jfif" alt="your image">
+        </div>
+        <div class="self-description">
+            <p> Welcome to my blog</p>
+            <h1 id="name"> Maharat</h1>
+            <p> software/frontend devalloper</p>
+            <div class="btn-container">
+                <button class="resume-btn" onclick="window.open('./assets/MAHARI_Mohamed_Software_engineer_CV.pdf')"> Download CV</button>
+                <button class="contact-me-btn" onclick="location.href='./#contact'">contact me</button>
+            </div>
+            <div class="social-media-conatiner">
+                <img src="/assets/linkedin-logo.png" alt="My LinkdIn" onclick="location.href='https:...........'" class="linkdin-img">
+                <img src="/assets/github-logo.png" alt="My Github" onclick="location.href='https://github.com/momahari'" class="github-img">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1> Know more</h1>
+        <p>Abou MAHARAT</p>
+        <div></div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
