@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 <body>
-    <nav id="desktop-nav" style="background-color: #eee;">
+    <nav id="desktop-nav" style="background-color: #ffb6390c; border-bottom: 2px solid #ffb6393d;">
         <div class="logo">
-            <span>M</span>AH<span>A</span>RA<span>T</span>    
+            <h3><span>M</span>AH<span>A</span>RA<span>T</span></h3>    
         </div>
             <ul class="menu-links">
                 <li><a href="#about">About</a></li>
@@ -20,8 +20,10 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
     </nav>
-    <nav id="hum-nav" style="background-color: #eee;">
-        <div class="hum-logo"><span>M</span>AH<span>A</span>RA<span>T</span></div>
+    <nav id="hum-nav" style="background-color: #ffb6390c; border-bottom: 2px solid #ffb6393d">
+        <div class="logo">
+            <h3><span>M</span>AH<span>A</span>RA<span>T</span></h3>  
+        </div>
         <div class="hum-menu">
             <div class="hum-icon" onclick="togglemenu()">
                 <span></span>
@@ -41,9 +43,9 @@
             <img src="./assets/prof.jfif" alt="your image">
         </div>
         <div class="self-description">
-            <p> Welcome to my blog</p>
-            <h1 id="name"> Maharat</h1>
-            <p> software/frontend devalloper</p>
+            <p class="subtitle"> Welcome to my blog</p>
+            <h1 id="title"> Maharat</h1>
+            <p class="subtitle"> software/frontend developer</p>
             <div class="btn-container">
                 <button class="resume-btn" onclick="window.open('./assets/MAHARI_Mohamed_Software_engineer_CV.pdf')"> Download CV</button>
                 <button class="contact-me-btn" onclick="location.href='./#contact'">contact me</button>
@@ -55,9 +57,126 @@
         </div>
     </section>
     <section id="about">
-        <h1> Know more</h1>
-        <p>Abou MAHARAT</p>
-        <div></div>
+        <p class="subtitle" style="padding: 0.5rem;"> Know more</p>
+        <h1 class="title">About MAHARAT</h1>
+        <div class="about-section-container">
+            <div class="about-pic-container">
+                <img src="./assets/prof.jfif" alt="About Pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-conatiner">
+                    <div class="details-container">
+                        <img src="./assets/acheivment.png" alt="Acheivments icon">
+                        <h2>Experiance</h2>
+                        <p>frontend devalopper <br>UI/UX designer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/graduation.png" alt="education icon">
+                        <h2>Education</h2>
+                        <p>Master in electrical engineering</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus velit eaque natus similique, iusto illum error adipisci quod cum dolorem eius eveniet perferendis hic obcaecati, quia beatae minus est quam distinctio iure saepe minima. Nostrum laudantium dolore laborum numquam odio iste, repudiandae totam repellat reprehenderit ratione tempora mollitia magni sequi ea sed facilis et qui in iusto veniam quo earum?</p>
+                </div>
+            </div>
+        </div>
+        <img src="/assets/down-arrow.png" alt="down-arrow" class="arrow-icon" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="subtitle"> Explore my experiences</p>
+        <h1 class="title">My experiences</h1>
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-title"> Frontend Developer</h2>
+                    <div class="articles-container">
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 1</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 2</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 3</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 4</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 5</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-title"> backend devalopper</h2>
+                    <div class="articles-container">
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 1</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 2</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 3</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 4</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                        <article class="experience-article">
+                            <img src="./assets/level.png" alt="basic level icon">
+                            <div class="level-indicator">
+                                <h3>skill 5</h3>
+                                <p class="date">June 2022 - Present</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        <img src="/assets/down-arrow.png" alt="down-arrow" class="arrow-icon" onclick="location.href='./#project'">
+    </section>
+    <section id="project">
+        <p class="subtitle">Explore more abourt my projects</p>
+        <h1 class="title">Project</h1>
+    </section>
+    <section>
+        <p class="subtitle">contact me</p>
+        <h1 class="title">My Contact</h1>
     </section>
     <footer>
 
