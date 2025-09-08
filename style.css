@@ -302,7 +302,7 @@ section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: var(--l-space);
+    gap: var(--m-space);
 }
 
 .experience-article:hover {
@@ -315,7 +315,7 @@ section {
     align-items: center;
     gap: var(--m-space);
     border: #ccc solid 2px;
-    padding: var(--m-space);
+    padding: var(--s-space) var(--m-space);
     border-radius: var(--m-space);
 }
 
