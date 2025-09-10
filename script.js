@@ -16,3 +16,5 @@ arrowIconHovers.forEach(arrowIconHover => {
         arrowIconHover.src = './assets/down-arrow.png';
     });
 });
+
+const skills1 = document.querySelectorAll(".level-indicator") 
